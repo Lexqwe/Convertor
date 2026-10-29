@@ -1,0 +1,15 @@
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\bin\Debug\net10.0\ViewModels.deps.json
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\bin\Debug\net10.0\ViewModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\bin\Debug\net10.0\ViewModels.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\bin\Debug\net10.0\ApiModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\bin\Debug\net10.0\ApiModels.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.csproj.AssemblyReference.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.AssemblyInfoInputs.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.AssemblyInfo.cs
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.csproj.CoreCompileInputs.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.csproj.Up2Date
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\refint\ViewModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ViewModels.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ViewModels\obj\Debug\net10.0\ref\ViewModels.dll

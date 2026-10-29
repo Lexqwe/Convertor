@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Client.MainPage">
+
+    <VerticalStackLayout>
+        <Label Text="Конвертер валют" 
+               FontSize="28" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center" />
+        <HorizontalStackLayout Spacing="10" 
+                               HorizontalOptions="Center">
+            <Label Text="Дата" FontSize="16" VerticalOptions="Center"/>
+            <DatePicker Date="{Binding SelectedDate}"/>
+        </HorizontalStackLayout>
+        <Label Text="{Binding DateHint}" 
+               HorizontalOptions="Center" 
+               FontSize="14" />
+        <Grid ColumnDefinitions="2*, *" 
+              RowDefinitions="Auto, Auto"
+              RowSpacing="15"
+              ColumnSpacing="10">
+            <Picker Grid.Row ="0" 
+                    Grid.Column ="0"
+                    ItemsSource="{Binding AvailableCurrencies}"
+                    SelectedItem="{Binding SelectedFromCurrency}"
+                    ItemDisplayBinding="{Binding Name}"
+                    Title="Валюта 1" />
+            <Entry Grid.Row="0" 
+                   Grid.Column="1"
+                   Text="{Binding FromAmount}"
+                   Keyboard="Numeric"/>
+            <Picker Grid.Row ="1" 
+                    Grid.Column ="0"
+                    ItemsSource="{Binding AvailableCurrencies}"
+                    SelectedItem="{Binding SelectedToCurrency}"
+                    ItemDisplayBinding="{Binding Name}"
+                    Title="Валюта 2" />
+            <Entry Grid.Row="1" 
+                   Grid.Column="1"
+                   Text="{Binding ToAmount}"
+                   Keyboard="Numeric"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

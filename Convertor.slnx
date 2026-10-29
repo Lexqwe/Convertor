@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Api/Api.csproj" Id="a65e83dd-959d-4264-ba24-4c1d8e7daa00" />
+  <Project Path="ApiModels/ApiModels.csproj" Id="83ec0940-e690-4bbc-8a2c-af3ddb9970e8" />
+  <Project Path="Client/Client.csproj" Id="004548d4-bc1a-4d36-bc3d-f2124921262f" />
+  <Project Path="Http/Http.csproj" Id="e1a5a260-f0fc-4cd7-a5e2-9cfb308e29b0" />
+  <Project Path="ViewModels.Tests/ViewModels.Tests.csproj" Id="991e26c9-6562-4974-8d02-9c73a0d1ea25" />
+  <Project Path="ViewModels/ViewModels.csproj" Id="1c7db85f-75c9-468a-aa26-ddbe7d11d4ec" />
+</Solution>

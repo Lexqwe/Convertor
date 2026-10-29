@@ -1,0 +1,15 @@
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\bin\Debug\net10.0\Http.deps.json
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\bin\Debug\net10.0\Http.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\bin\Debug\net10.0\Http.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\bin\Debug\net10.0\ApiModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\bin\Debug\net10.0\ApiModels.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.csproj.AssemblyReference.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.GeneratedMSBuildEditorConfig.editorconfig
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.AssemblyInfoInputs.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.AssemblyInfo.cs
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.csproj.CoreCompileInputs.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.csproj.Up2Date
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\refint\Http.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\Http.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\Http\obj\Debug\net10.0\ref\Http.dll

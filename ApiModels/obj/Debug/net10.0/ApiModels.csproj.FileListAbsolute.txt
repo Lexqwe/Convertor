@@ -1,0 +1,12 @@
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\bin\Debug\net10.0\ApiModels.deps.json
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\bin\Debug\net10.0\ApiModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\bin\Debug\net10.0\ApiModels.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ApiModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ApiModels.AssemblyInfoInputs.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ApiModels.AssemblyInfo.cs
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ApiModels.csproj.CoreCompileInputs.cache
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ApiModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\refint\ApiModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ApiModels.pdb
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ref\ApiModels.dll
+C:\СУРГУ\5 семестр\ТРПО\1\Convertor\ApiModels\obj\Debug\net10.0\ApiModels.csproj.Up2Date
