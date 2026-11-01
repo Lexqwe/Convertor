@@ -1,6 +1,7 @@
 ﻿using System.Text.Json;
 using ApiModels;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
 
 namespace Api.Services;
 
@@ -8,11 +9,13 @@ public class CbrService
 {
     private readonly HttpClient _httpClient;
     private readonly IMemoryCache _cache;
+    private readonly ILogger<CbrService> _logger;
 
-    public CbrService(HttpClient httpClient, IMemoryCache cache)
+    public CbrService(HttpClient httpClient, IMemoryCache cache, ILogger<CbrService> logger)
     {
         _httpClient = httpClient;
         _cache = cache;
+        _logger = logger;
     }
 
     public async Task<RatesResponse> GetRatesAsync(DateOnly requestedDate)
@@ -21,6 +24,7 @@ public class CbrService
 
         if (_cache.TryGetValue(cacheKey, out RatesResponse? cachedResult))
         {
+            _logger.LogInformation("Курсы на {Date} взяты из кеша", requestedDate);
             return cachedResult!;
         }
 
@@ -39,6 +43,7 @@ public class CbrService
 
         if (cbrData == null || cbrData.Valute.Count == 0)
         {
+            _logger.LogError("Не удалось найти курсы валют за {Date} (и за 7 дней до неё)", requestedDate);
             throw new Exception($"Не удалось найти курсы валют за {requestedDate:yyyy-MM-dd} (и за 7 дней до неё).");
         }
 
@@ -74,6 +79,8 @@ public class CbrService
         _cache.Set(cacheKey, result, TimeSpan.FromHours(12));
         _cache.Set("currencies", currencies, TimeSpan.FromHours(12));
 
+        _logger.LogInformation("Курсы на {Date} загружены и закешированы", requestedDate);
+
         return result;
     }
 
@@ -81,6 +88,7 @@ public class CbrService
     {
         if (_cache.TryGetValue("currencies", out List<Currency>? cachedCurrencies))
         {
+            _logger.LogInformation("Справочник валют взят из кеша");
             return cachedCurrencies!;
         }
 
@@ -98,13 +106,17 @@ public class CbrService
             var response = await _httpClient.GetAsync(url);
             if (!response.IsSuccessStatusCode)
             {
+                _logger.LogWarning("Ответ {StatusCode} на запрос {Url} (дата: {Date})", response.StatusCode, url, date);
                 return null;
             }
             var json = await response.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<CbrResponse>(json);
+            var result = JsonSerializer.Deserialize<CbrResponse>(json);
+            _logger.LogDebug("Успешно получены курсы на {Date}", date);
+            return result;
         }
-        catch
+        catch (Exception ex)
         {
+            _logger.LogError(ex, "Ошибка при запросе на дату {Date}", date);
             return null;
         }
     }
